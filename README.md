@@ -10,7 +10,7 @@ sem nenhuma necessidade de codificar nada em nenhuma linguagem
 //Instruções
 No arquivo "index.php" existe um token padrão criptografado em md5, para ver o token ou alterar é só abrir e mudar o valor do token.
 Todas as requisições devem ter o atributo "token" no GET como valor, caso o token não seja correpondente a API não funcionará. Configure o 
-arquivo "config.php"   Siga abaixoos exemplos de como utilizar
+ banco de dados no arquivo "config.php" dentro da pasta includes. Siga abaixo os exemplos de como utilizar
 
 //Módulos
 
