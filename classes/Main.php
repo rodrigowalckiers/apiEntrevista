@@ -9,7 +9,7 @@
 			include 'includes/config.php';
 			
 			$cpfCliente  = $_GET['cpf'];
-			switch($cpf){
+			switch($cpfCliente){
 				case "":
 					$sql = "SELECT * FROM tb_clientes ORDER BY idCliente ASC";
 				break;
