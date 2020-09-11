@@ -7,13 +7,15 @@ sem nenhuma necessidade de codificar nada em nenhuma linguagem.
 
 PS: Na parte de edição por eu não ter colocado validações, se você não preencher todos requisitos da API ele pode zerar o campo não
 preenchido no banco em caso de MariaDB por exemplo.
-
+Você consegue usar essa API no caso do PHP com o curl em modo GET, caso não saiba procure pelo termo e achará várias coisas relacionadas.
+Criado por: Rodrigo Walckiers
+Email: rodrigowalckiers@gmail.com
 ####################################################################################################
 
 //Instruções
 Suba o arquivo "db.sql" no seu banco de dados, no arquivo "index.php" existe um token padrão criptografado em md5, para ver o token ou alterar é só abrir e mudar o valor do token.
 Todas as requisições devem ter o atributo "token" no GET como valor, caso o token não seja correpondente a API não funcionará. Configure o 
- banco de dados no arquivo "config.php" dentro da pasta includes. Siga abaixo os exemplos de como utilizar
+banco de dados no arquivo "config.php" dentro da pasta includes. Siga abaixo os exemplos de como utilizar
 
 //Módulos
 
